@@ -6,7 +6,7 @@ image = cv.imread("monalisa.jpg")
 x*=2
 y*=2
 z*=2
-shapedImage=cv.resize(image, (y,x))
+shapedImage=cv.resize(image, (y,x)) # genişlik ve yükseklik
 
 cv.imshow("Original",image)
 
